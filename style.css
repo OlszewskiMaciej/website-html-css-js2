@@ -537,3 +537,52 @@
     }
   }
   
+  
+  
+.contact {
+    background: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+}
+
+.contact__form {
+    color: white;
+    font-size: 1.8rem;
+    margin: 20px;
+}
+
+.contact__btn {
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    background-color: white;
+    font-size: 1rem;
+    background: rgb(255, 255, 255);
+    border: 2px solid black; 
+    color: rgb(0, 0, 0);
+    outline: none;
+    padding: 14px 32px;
+    margin: 10px;
+    cursor: pointer;
+    position: relative;
+    transition: all 0.4s ease;
+}
+
+.contact__btn a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.contact__btn:hover {
+    cursor: pointer;
+}
+
+@media screen and (max-width: 960px) {
+    .contact {
+        text-align: center;
+    }
+}
+
+
